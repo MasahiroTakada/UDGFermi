@@ -1,0 +1,99 @@
+\documentclass[a4paper,11pt]{article}
+\pdfoutput=1 % if your are submitting a pdflatex (i.e. if you have
+             % images in pdf, png or jpg format)
+
+\usepackage{jcappub} % for details on the use of the package, please
+                     % see the JCAP-author-manual
+
+\usepackage[T1]{fontenc} % if needed
+
+\usepackage{url}
+\usepackage{graphics}
+
+\title{\boldmath Constraining dark matter
+annihilation with HSC ultra diffuse galaxies}
+
+
+%% %simple case: 2 authors, same institution
+%% \author{A. Uthor}
+%% \author{and A. Nother Author}
+%% \affiliation{Institution,\\Address, Country}
+
+% more complex case: 4 authors, 3 institutions, 2 footnotes
+\author[a,b,1]{Daichi Hashimoto,\note{Corresponding author.}}
+\author[c]{et al.}
+
+% The "\note" macro will give a warning: "Ignoring empty anchor..."
+% you can safely ignore it.
+
+\affiliation[a]{Nagoya U.}
+\affiliation[c]{A School for Advanced Studies,\\some-location, Country}
+
+% e-mail addresses: one for each author, in the same order as the authors
+\emailAdd{first@one.univ}
+\emailAdd{fourth@one.univ}
+
+
+
+
+\abstract{Abstract...}
+
+
+
+\begin{document}
+\maketitle
+\flushbottom
+
+\section{Introduction}
+\label{sec:intro}
+
+\section{Model}
+\label{sec:model}
+
+\begin{itemize}
+    \item Describe how to compute the luminosity of DM annihilation 
+    signal for ultra diffuse galaxies
+    \item Describe ingredients of NFW model ($grizy$ SED fitting, mass-to-light ratio, 
+    NFW profile, concentration, boost factor due to substructures)
+\end{itemize}
+
+\section{Sample (TBD)} 
+
+\begin{itemize}
+    \item Describe the Subaru Hyper Suprime-Cam survey
+    \item Describe the sample of UDGs (refer Johnny's paper)
+    \item Fermi data (Section 3 in \url{http://iopscience.iop.org/article/10.1088/0067-0049/199/2/31/pdf})
+    \item Show the best-fit SED for each of 8 UDGs
+\end{itemize}
+
+\section{Results}
+
+\begin{itemize}
+    \item 95\% CL upper limit on the DM cross section from 
+    each of 8 UDGs, and the stacked result
+\end{itemize}
+
+\section{Discussion}
+\begin{itemize}
+    \item Impact of model variations on the results
+    \item Discuss the results when using $\sim$500 UDGs
+    \item Discuss prospects for the full HSC survey and LSST
+    \item Discuss pros and cons of this method compared with dSphs constraints (stress advantages of point source-like targets)
+    \item Discuss implications for Magic/HESS and CTA (HAWC: TeV DM) 
+\end{itemize}
+
+\section{Conclusion}
+
+\acknowledgments
+This work is in part supported by MEXT Grant-in-Aid for Scientific Research on Innovative Areas (No.~15H05887, 15H05892, 15H05893).
+
+% The bibliography will probably be heavily edited during typesetting.
+% We'll parse it and, using the arxiv number or the journal data, will
+% query inspire, trying to verify the data (this will probalby spot
+% eventual typos) and retrive the document DOI and eventual errata.
+% We however suggest to always provide author, title and journal data:
+% in short all the informations that clearly identify a document.
+
+\bibliography{refs}
+
+\end{document}
